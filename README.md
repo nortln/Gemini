@@ -18,6 +18,10 @@ conda create -p env
 conda activate ./env
 ```
 
+#### Step 1.9
+```bash
+pip install -r requirements.txt
+```
 
 
 #### Step 2.0
