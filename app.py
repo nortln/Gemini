@@ -12,6 +12,8 @@ GOOGLE_API_KEY = os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=GOOGLE_API_KEY)
 
 
+
+
 def get_gemini_response(input, image, prompt):
     model = genai.GenerativeModel("gemini-pro-vision")
     response = model.generate_content([input, image[0], prompt])
@@ -54,6 +56,6 @@ You are an expert in understanding images and makeing judgements.
 if submit:
     image_data = input_image_setup(uploaded_file)
     response = get_gemini_response(input_prompt, image_data, input)
-
     st.subheader("The Response is")
     st.write(response)
+
