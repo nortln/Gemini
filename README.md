@@ -28,3 +28,8 @@ pip install -r requirements.txt
 ```bash
 streamlit run app.py
 ```
+
+![Image Info Generator - Google Chrome 4_15_2024 10_35_29 PM](https://github.com/nortln/Gemini/assets/112275172/118fc13f-7a2a-455c-8451-cbd5d04f7d24)
+
+![Invoice Extractor - Google Chrome 4_15_2024 8_54_27 PM](https://github.com/nortln/Gemini/assets/112275172/53ccd3d0-f8c3-4632-84bf-b4ef280b7caf)
+
